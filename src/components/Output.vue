@@ -24,6 +24,12 @@ export default {
 
 div.output {
   text-align: center;
+  animation: fadein 3s forwards;
+}
+
+@keyframes fadein {
+	0% {opacity: 0}
+	100% {opacity: 1}
 }
 
 div.content {

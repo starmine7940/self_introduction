@@ -7,7 +7,7 @@
 <script>
 </script>
 
-<style>
+<style scoped>
 .wrapper {
 	text-align: center;
 	animation: fadein 3s forwards;

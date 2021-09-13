@@ -31,6 +31,7 @@ export default {
     background-color: #2c3e50;
     width: 100%;
     padding: 10px;
+    border-radius: 10px;
 }
 
 ol {

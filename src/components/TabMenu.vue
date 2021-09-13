@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="header">
         <ol>
             <li v-for="(item, index) in items" :key=index>
                 <router-link v-bind:to=item.path>
@@ -15,18 +15,24 @@ export default {
     name: 'TabMenu',
     data () {
         return {
-        items: [
-            { title: 'top', path: '/' },
-            { title: 'profile', path: '/profile' },
-            { title: 'skills', path: '/skills' },
-            { title: 'outputs', path: '/outputs' }
-        ]
+            items: [
+                { title: 'Top', path: '/' },
+                { title: 'Profile', path: '/profile' },
+                { title: 'Skills', path: '/skills' },
+                { title: 'Outputs', path: '/outputs' }
+            ]
         }
     }
 }
 </script>
 
 <style scoped>
+#header {
+    background-color: #2c3e50;
+    width: 100%;
+    padding: 10px;
+}
+
 ol {
     margin-left: auto;
     width: 480px;

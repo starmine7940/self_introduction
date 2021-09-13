@@ -1,6 +1,7 @@
 <template>
   	<div class="wrapper">
     	<h1>Top</h1>
+		<p>Starmine7940のサイトへようこそ！私は情報学を専攻する学生です。</p>
   	</div>
 </template>
 

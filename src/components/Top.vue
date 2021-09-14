@@ -32,7 +32,6 @@
 }
 
 #fencing {
-	width: 300px;
-	height: 300px;
+	width: 50%;
 }
 </style>

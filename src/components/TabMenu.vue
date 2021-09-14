@@ -18,6 +18,7 @@ export default {
             items: [
                 { title: 'Top', path: '/' },
                 { title: 'Profile', path: '/profile' },
+                { title: 'Carrier', path: '/carrier' },
                 { title: 'Skills', path: '/skills' },
                 { title: 'Outputs', path: '/outputs' }
             ]

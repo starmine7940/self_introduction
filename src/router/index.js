@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Top from '@/components/Top'
 import Profile from '@/components/Profile'
+import Carrier from '@/components/Carrier'
 import Skill from '@/components/Skill'
 import Output from '@/components/Output'
 
@@ -19,6 +20,11 @@ export default new Router({
       path: '/profile',
       name: 'Profile',
       component: Profile
+    },
+    {
+      path: '/carrier',
+      name: 'Carrier',
+      component: Carrier
     },
    {
       path: '/skills',

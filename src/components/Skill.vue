@@ -27,20 +27,20 @@
     export default {
     	data(){
       		return {
-                c: require('@/assets/c.png'),
-                html: require('@/assets/html.png'),
-                css: require('@/assets/css.png'),
-                javascript: require('@/assets/javascript.png'),
-                python: require('@/assets/python.png'),
-                firebase: require('@/assets/firebase.png'),
-                git: require('@/assets/git.png'),
-                github: require('@/assets/github.png'),
-                java: require('@/assets/java.png'),
-                ruby: require('@/assets/ruby.png'),
-                nodejs: require('@/assets/nodejs.png'),
-                react: require('@/assets/react.png'),
-                vuejs: require('@/assets/vuejs.png'),
-                mysql: require('@/assets/mysql.png'),
+                c: require('@/assets/c.svg'),
+                html: require('@/assets/html.svg'),
+                css: require('@/assets/css.svg'),
+                javascript: require('@/assets/javascript.svg'),
+                python: require('@/assets/python.svg'),
+                firebase: require('@/assets/firebase.svg'),
+                git: require('@/assets/git.svg'),
+                github: require('@/assets/github.svg'),
+                java: require('@/assets/java.svg'),
+                ruby: require('@/assets/ruby.svg'),
+                nodejs: require('@/assets/nodejs.svg'),
+                react: require('@/assets/react.svg'),
+                vuejs: require('@/assets/vuejs.svg'),
+                mysql: require('@/assets/mysql.svg'),
       		}
     	}
   	}
@@ -68,6 +68,7 @@
 }
 
 img {
-    width: 10%;
+    width: 7%;
+    margin: 10px;
 }
 </style>

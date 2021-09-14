@@ -1,30 +1,10 @@
 # self_introduction
+インターンシップの課題で作成したWebサイトです。Vue.jsを使って作成しました。
 
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# その他の情報
+- 参考にしたサイト
+    - https://qiita.com/abouch/items/35d7a202f3e74c7d4c3e
+- localhostで立ち上げる
+    - npm run dev
+- buildする
+    - npm run build

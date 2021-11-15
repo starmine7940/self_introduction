@@ -70,7 +70,7 @@
 }
 
 .image2 {
-    width: 25%;
+    width: 40%;
 
 }
 </style>

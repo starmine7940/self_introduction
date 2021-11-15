@@ -1,8 +1,15 @@
 <template>
   	<div class="wrapper">
+        <div class="component">
+            <h2>なつかしい話題を推薦するシステム</h2>
+            <p>卒業研究の実験用に作成した、なつかしいと感じる（個人的ノスタルジアが喚起される）話題を推薦するシステムです。2人のユーザが同時にシステムにアクセスし、スタートボタンを押すと話題の推薦が始まります。ボタンを押すたびに、協調フィルタリングを利用したアルゴリズムで曲が切り替わっていきます。2人ともなつかしいと感じる話題を見つけることを支援することを目的とします。</p>
+            <p>使った技術: HTML, CSS, JavaScript, Firebase</p>
+            <a href="https://github.com/starmine7940/nostalgia-recommendation" target="_blank">github</a><br><br>
+            <img v-bind:src="nostalgia" class="image">
+        </div>
     	<div class="component">
             <h2>マインスイーパ</h2>
-            <p>初めて一人で作成したwebアプリケーションです。最初に押したマスが地雷にならないように、最初にマスを押した瞬間にマップを生成するように工夫しました。</p>
+            <p>ブラウザ上で動く一人用ゲーム「マインスイーパ」です。最初に押したマスが地雷にならないように、最初にマスを押した瞬間にマップを生成するように工夫しました。</p>
             <p>使った技術: HTML, CSS, JavaScript</p>
             <a href="https://github.com/starmine7940/minesweeper" target="_blank">github</a><br><br>
             <img v-bind:src="minesweeper" class="image">
@@ -27,7 +34,8 @@
     export default {
     	data(){
       		return {
-        		minesweeper: require('@/assets/minesweeper.png'),
+        		nostalgia: require('@/assets/nostalgia.png'),
+                minesweeper: require('@/assets/minesweeper.png'),
                 crackpanel: require('@/assets/crackpanel.png'),
                 vote_system: require('@/assets/vote_system.png'),
       		}

@@ -5,7 +5,7 @@
             <p>卒業研究の実験用に作成した、なつかしいと感じる（個人的ノスタルジアが喚起される）話題を推薦するシステムです。2人のユーザが同時にシステムにアクセスし、スタートボタンを押すと話題の推薦が始まります。ボタンを押すたびに、協調フィルタリングを利用したアルゴリズムで曲が切り替わっていきます。2人ともなつかしいと感じる話題を見つけることを支援することを目的とします。</p>
             <p>使った技術: HTML, CSS, JavaScript, Firebase</p>
             <a href="https://github.com/starmine7940/nostalgia-recommendation" target="_blank">github</a><br><br>
-            <img v-bind:src="nostalgia" class="image">
+            <img v-bind:src="nostalgia" class="image2">
         </div>
     	<div class="component">
             <h2>マインスイーパ</h2>
@@ -66,6 +66,11 @@
 
 .image {
     width: 50%;
+
+}
+
+.image2 {
+    width: 30%;
 
 }
 </style>
